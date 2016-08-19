@@ -4,10 +4,12 @@
 
 {{update-question question=model update="update"}}
 
-{{new-answer question=model save2="save3"}}
-
+<h2>Answers:</h2>
 {{#each model.answers as |answer|}}
-  {{answer.author}} says
+  {{answer.author}} says:
   {{answer.content}}
   <br>
 {{/each}}
+
+
+{{new-answer saveAnswer2="saveAnswer3" question=model}}

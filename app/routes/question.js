@@ -20,14 +20,14 @@ export default Ember.Route.extend({
       this.transitionTo('index');
     },
 
-    save3(params) {
+    saveAnswer3(params) {
       var newAnswer = this.store.createRecord('answer', params);
       var question = params.question;
       question.get('answers').addObject(newAnswer);
       newAnswer.save().then(function() {
         return question.save();
       });
-      this.transitionTo('question', params.post);
+      this.transitionTo('question', params.question);
     }
   }
 });
