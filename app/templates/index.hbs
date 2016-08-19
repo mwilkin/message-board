@@ -4,4 +4,10 @@
   This Forum will be for all things whiskey. Post your questions and recieve answers.
 </p>
 
+<ul>
+  {{#each model as |question|}}
+    <li>{{question.question}} | {{question.author}} | {{question.notes}}</li>
+  {{/each}}
+</ul>
+<hr>
 {{#link-to 'about'}}About{{/link-to}}
