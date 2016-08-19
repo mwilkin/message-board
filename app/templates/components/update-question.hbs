@@ -14,10 +14,10 @@
       <label for="notes">Notes</label>
       {{input value=question.notes id="notes"}}
     </div>
+    <button {{action 'update'}}>Save</button>
   </form>
-  <button {{action 'save1'}}>Save</button>
 </div>
 {{else}}
-<button {{action 'questionFormShow'}}>Update Question</button>
+<button {{action 'updateQuestionForm'}}>Update Question</button>
 
 {{/if}}
