@@ -1,7 +1,30 @@
-# Message-board
+# Question and Answer Message Board
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+## By _Matt Wilkin_
+
+#### Ember JS, August 19, 2016
+
+## Description
+
+The objective of this project was to create a simple question and answer board where a user can submit a question and other users can respond with answers.
+
+## Objectives
+
+| Objective        | Complete           |
+| ------------- |:-------------:|
+| Questions should have the content of the question itself, an author and additional notes.    | X |
+| Answers should have the content of the answer and the author.     | X |
+| Include a header and/or navbar that appears on all pages containing the name of your site and a link to the home page.    | X |
+| List all questions on the homepage, with only the question and the name of the author showing.     | X |
+| Users should be able to click on a question to view additional information.     | X |
+| Allow users to add and edit questions.     | X |
+| Allow users to add answers to a question. Answers should be added and viewed on the same page as the question they respond to.     | X |
+
+## Further Exploration
+
+* Add custom styling.
+* Implement upvote/downvote functionality so that users may vote on answers.
+* Add tags to questions.
 
 ## Prerequisites
 
@@ -51,3 +74,21 @@ Specify what it takes to deploy your app.
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 
+## Known Bugs
+
+* Currently no known bugs
+
+## Support and contact details
+
+If you run into any issues or have questions, ideas, or concerns, please feel free to email me at the link below or contact me on GitHub.
+
+* Email: <a href="mailto:mwilkin22@gmail.com">Matt Wilkin</a>
+
+* GitHub: <a href="https://github.com/mwilkin/github-api">mwilkin</a>
+
+### License
+
+*MIT License*
+<a href="https://opensource.org/licenses/MIT">https://opensource.org/licenses/MIT</a>
+
+Copyright (c) 2016 **_Matt Wilkin_**
