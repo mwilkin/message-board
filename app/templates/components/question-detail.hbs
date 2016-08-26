@@ -1,6 +1,8 @@
 Author: {{question.author}}<br>
 Question: {{question.question}}<br>
 Notes: {{question.notes}}
+Created: {{question.timestamp}}
 <hr>
-<button {{action 'delete' question}}>Delete Question</button>
+<button class="btn btn-danger"{{action 'delete' question}}>Delete Question</button>
+<button class="btn btn-primary"{{action 'addToFavorites'}}>Add to Favorites</button>
 <hr>
