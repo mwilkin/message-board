@@ -3,7 +3,7 @@
   background-size: cover;
   text-align: center;
   color: whitesmoke;
-  
+
 }
 
 body {
@@ -14,4 +14,10 @@ body {
 
 .container-fluid {
   background-color: lightgrey;
+}
+
+textarea {
+  display: block;
+  height: 10em;
+  width: 30em;
 }
