@@ -8,7 +8,7 @@ export function questionPopularity(params/*, hash*/) {
   } else if (question.get('answers').get('length') < 3 ){
     return Ember.String.htmlSafe('<span class="glyphicon glyphicon-fire"></span>');
   } else if (question.get('answers').get('length') > 3 ){
-    return Ember.String.htmlSafe('<span class="glyphicon glyphicon-fire"></span>' + '<span class="glyphicon glyphicon-fire"></span>' + '<span class="glyphicon glyphicon-fire"></span>');    
+    return Ember.String.htmlSafe('<span class="glyphicon glyphicon-flash"></span>' + '<span class="glyphicon glyphicon-flash"></span>' + '<span class="glyphicon glyphicon-flash"></span>');
   }
 }
 
