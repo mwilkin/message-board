@@ -6,5 +6,4 @@ export default Ember.Component.extend({
     var answerCount = this.get('question.answers.length');
     return answerCount;
   })
-
 });

@@ -2,7 +2,7 @@
 
 ## By _Matt Wilkin_
 
-#### Ember JS, August 19, 2016
+#### Ember JS, August 26 , 2016
 
 ## Description
 
@@ -19,12 +19,21 @@ The objective of this project was to create a simple question and answer board w
 | Users should be able to click on a question to view additional information.     | X |
 | Allow users to add and edit questions.     | X |
 | Allow users to add answers to a question. Answers should be added and viewed on the same page as the question they respond to.     | X |
+| Implement at least one computed property. | X |
+| Add a helper.  | X |
+| Integrate a service.  | X |
 
 ## Further Exploration
 
 * Add custom styling.
 * Implement upvote/downvote functionality so that users may vote on answers.
 * Add tags to questions.
+* Allow users to upvote and downvote questions. Sort questions by number of votes.
+* Include additional computed properties.
+* Use a nested route, if applicable.
+* Implement a feature that uses a Firebase query.
+* Integrate tags or categories to further organize questions.
+
 
 ## Prerequisites
 
