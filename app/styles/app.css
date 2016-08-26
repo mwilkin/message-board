@@ -3,13 +3,10 @@
   background-size: cover;
   text-align: center;
   color: whitesmoke;
-
 }
 
 body {
-
   background-color: smokegrey;
-
 }
 
 .container-fluid {
@@ -20,4 +17,8 @@ textarea {
   display: block;
   height: 10em;
   width: 30em;
+}
+
+footer {
+  text-align: center;
 }
