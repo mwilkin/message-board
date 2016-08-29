@@ -1,8 +1,11 @@
-<h2>Favorite Quesitons:</h2>
+<h4>Favorite Quesitons:</h4>
 <ul>
   {{#each favoriteQuestions.questions as |question|}}
     <li>
-      {{question.question}} | {{question.author}}
+       {{#link-to 'question' question}}
+       {{question.question}} | {{question.author}}{{/link-to}}
+      <button {{action "remove" question}}>Remove Question</button>
     </li>
   {{/each}}
+  <button {{action "empty" question}}>Empty Favorite Question List</button>
 </ul>
