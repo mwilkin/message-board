@@ -8,7 +8,7 @@ export default Ember.Component.extend({
       this.get('favoriteQuestions').remove(question);
     },
     empty() {
-      this.get('favoriteQuestions').clear();
+      this.get('favoriteQuestions').empty();
     }
   }
 });

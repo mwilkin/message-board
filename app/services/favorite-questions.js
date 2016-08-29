@@ -5,5 +5,11 @@ export default Ember.Service.extend({
 
   add(question) {
     this.get('questions').pushObject(question);
+  },
+  remove(question) {
+    this.get('favoriteQuestions').removeObject(question);
+  },
+  empty() {
+    this.get('favoriteQuestions').clear();
   }
 });
