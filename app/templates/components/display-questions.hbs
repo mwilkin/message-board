@@ -4,8 +4,8 @@
     <li>
        {{#link-to 'question' question}}
        {{question.question}} | {{question.author}}{{/link-to}}
-      <button {{action "remove" question}}>Remove Question</button>
+      <button class="btn btn-danger btn-sm"{{action "remove" question}}>Remove Question</button>
     </li>
-  {{/each}}
-  <button {{action "empty" question}}>Empty Favorite Question List</button>
+  {{/each}}<br>
+  <button class="btn btn-danger" {{action "empty" question}}>Empty List</button>
 </ul>
