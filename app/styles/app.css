@@ -1,16 +1,26 @@
+body {
+  background: url('http://fc03.deviantart.net/fs32/i/2008/217/b/a/Old_Barn_Planks_Stock_by_Moonchilde_Stock.jpg');
+}
+
 .jumbotron {
   background: url(http://liquor.s3.amazonaws.com/wp-content/uploads/2010/01/whiskey-barrel.jpg);
   background-size: cover;
   text-align: center;
   color: whitesmoke;
 }
+.content {
+  background-color: #b9c0c6;
+  padding-top: 3em;
+  padding-left: 13em;
+  padding-bottom: 3em;
 
+}
 body {
-  background-color: smokegrey;
+  background-color: #b9c0c6;
 }
 
 .container-fluid {
-  background-color: lightgrey;
+  background-color: #b9c0c6;
 }
 
 textarea {
@@ -21,4 +31,12 @@ textarea {
 
 footer {
   text-align: center;
+  background-color: #b9c0c6;
+  padding: 1em;
+
+}
+.contactBody, .aboutBody, .contentBackground, .contentQuestion, .questionDetail, .answerContent, .moreContent {
+  background-color: #b9c0c6;
+  padding: 3em;
+
 }

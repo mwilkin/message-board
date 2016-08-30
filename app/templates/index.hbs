@@ -1,14 +1,17 @@
-<h1>Welcome to the Fire Water Question Forum</h1>
+<div class="content">
 
-<p>
-  This Forum will be for all things whiskey. Post your questions and receive answers.
-</p>
+  <h1>Welcome to the Fire Water Question Forum</h1>
 
-<ul>
-  {{#each model as |question|}}
-    {{question-tile question=question}}
-  {{/each}}
-</ul>
-{{new-question save2="save3"}}
-<hr>
-<h6>{{display-questions}}</h6>
+  <p>
+    This Forum will be for all things whiskey. Post your questions and receive answers.
+  </p>
+
+
+    {{#each model as |question|}}
+      {{question-tile question=question}}
+    {{/each}}
+
+  {{new-question save2="save3"}}
+  <hr>
+  <h6>{{display-questions}}</h6>
+</div>

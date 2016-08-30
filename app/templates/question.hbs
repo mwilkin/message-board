@@ -1,16 +1,18 @@
-<h2>More information about {{model.author}}'s question:</h2>
+<div class="moreContent">
+  <h2>More information about {{model.author}}'s question:</h2>
 
-{{question-detail question=model destroyQuestion="destroyQuestion"}}
+  {{question-detail question=model destroyQuestion="destroyQuestion"}}
 
-{{update-question question=model update="update"}}
-<hr>
+  {{update-question question=model update="update"}}
+  <hr>
 
-<h2>Answers:</h2>
-{{#each model.answers as |answer|}}
-  {{answer.author}} says:
-  {{answer.content}}
-  <br>
-{{/each}}
+  <h2>Answers:</h2>
+  {{#each model.answers as |answer|}}
+    <h4>{{answer.author}}</h4> says:
+    <h4>{{answer.content}}</h4>
+    <br>
+  {{/each}}
+</div>
 
 
 {{new-answer saveAnswer2="saveAnswer3" question=model}}

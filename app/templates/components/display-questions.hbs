@@ -1,11 +1,13 @@
-<h4>Favorite Quesitons:</h4>
-<ul>
-  {{#each favoriteQuestions.questions as |question|}}
-    <li>
-       {{#link-to 'question' question}}
-       {{question.question}} | {{question.author}}{{/link-to}}
-      <button class="btn btn-danger btn-sm"{{action "remove" question}}>Remove Question</button>
-    </li>
-  {{/each}}<br>
-  <button class="btn btn-danger" {{action "empty" question}}>Empty List</button>
-</ul>
+<div class="contentQuestion">
+  <h4>Favorite Quesitons:</h4>
+  <ul>
+    {{#each favoriteQuestions.questions as |question|}}
+      <li>
+         {{#link-to 'question' question}}
+         {{question.question}} | {{question.author}}{{/link-to}}
+        <button class="btn btn-danger btn-sm"{{action "remove" question}}>Remove Question</button>
+      </li>
+    {{/each}}<br>
+    <button class="btn btn-danger" {{action "empty" question}}>Empty List</button>
+  </ul>
+</div>
