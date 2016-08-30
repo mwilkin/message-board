@@ -1,15 +1,19 @@
 import Ember from 'ember';
 
 export default Ember.Service.extend({
-  questions: [],
+  questions: null,
+
+  init() {
+    this.set('questions', []);
+  },
 
   add(question) {
     this.get('questions').pushObject(question);
   },
   remove(question) {
-    this.get('favoriteQuestions').removeObject(question);
+    this.get('questions').removeObject(question);
   },
   empty() {
-    this.get('favoriteQuestions').clear();
+    this.get('questions').clear();
   }
 });
